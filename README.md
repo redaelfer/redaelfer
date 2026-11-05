@@ -15,12 +15,12 @@ I am a state-qualified engineer in **Data Science and IoT from ENSIAS**, based i
 
 ## Multi-agent systems & LLM integration
 
-![OpenClaw](https://img.shields.io/badge/OpenClaw-184F3B?style=flat-square)
-![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-36546B?style=flat-square)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-184F3B?style=flat-square)](https://openclaw.ai/)
+[![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-36546B?style=flat-square)](https://hermes-agent.nousresearch.com/)
 
-During my final-year project at **Matious Digital (January–September 2026)**, I developed and tested an orchestration platform with **20–40 concurrent AI agents**.
+In my latest work experience, I developed and tested an orchestration platform with **20–40 concurrent AI agents**.
 
-- Integrated **OpenClaw and Hermes Agent** through WebSocket and REST APIs.
+- Integrated **[OpenClaw](https://openclaw.ai/) and [Hermes Agent](https://hermes-agent.nousresearch.com/)** through WebSocket and REST APIs.
 - Automated prompt generation, model selection, routing, and error recovery.
 - Deployed containerized agents on **Hetzner Cloud**.
 
@@ -34,27 +34,17 @@ My other AI projects use **Spring AI, Ollama, and tool calling**. My [portfolio]
 | **Data & infrastructure**  | ![Kafka, PostgreSQL, MongoDB, Docker](https://skillicons.dev/icons?i=kafka,postgres,mongodb,docker&theme=light&perline=4)<br/>Kafka · PySpark · HDFS · SQL · Pandas · NumPy · PostgreSQL · MongoDB · Docker                           |
 | **Full-stack development** | ![React, TypeScript, Java, Spring, Next.js, Node.js](https://skillicons.dev/icons?i=react,ts,java,spring,nextjs,nodejs&theme=light&perline=6)<br/>React · Next.js · TypeScript · Java · Spring Boot · Node.js · REST APIs · WebSocket |
 
-```mermaid
-flowchart LR
-    Focus["AI Engineering<br/>ML & Data Science"]
-    Focus --> Agents["Agent systems & LLMs<br/>OpenClaw · Hermes Agent<br/>Ollama · Spring AI"]
-    Focus --> Models["Machine learning<br/>TensorFlow · scikit-learn<br/>XGBoost"]
-    Focus --> Data["Data pipelines<br/>Kafka · PySpark · HDFS<br/>SQL · Pandas · NumPy"]
-    Focus --> Apps["Applications<br/>React · Next.js · Spring Boot<br/>Flask · Node.js"]
-
-    classDef primary fill:#184f3b,color:#ffffff,stroke:#184f3b;
-    class Focus primary;
-```
+![AI engineering capability map: agent systems and LLMs, machine learning, data pipelines, and applications.](assets/engineering-map.svg)
 
 ## Selected projects
 
 | Project                                               | Focus                                                              | Main technologies                                       |
 | ----------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
-| [TalentAI](https://github.com/redaelfer/TalentAI)     | AI-assisted recruitment and candidate matching                     | Spring Boot · Spring AI · Ollama · React · PostgreSQL   |
 | [RetinaScan](https://github.com/redaelfer/RetinaScan) | Academic retinal-image classification                              | TensorFlow · MobileNetV2 · Flask · React · Spring Boot  |
+| [TalentAI](https://github.com/redaelfer/TalentAI)     | AI-assisted recruitment and candidate matching                     | Spring Boot · Spring AI · Ollama · React · PostgreSQL   |
+| [JobOS](https://github.com/redaelfer/JobOS)           | A local workspace for job discovery, tracking, and tailored drafts | Node.js · SQLite · Ollama · LaTeX                       |
 | [NosqlAPT](https://github.com/redaelfer/NosqlAPT)     | Machine learning for security-log analysis                         | Python · XGBoost · scikit-learn · TensorFlow · Logstash |
 | [BigData](https://github.com/redaelfer/BigData)       | Streaming events from ingestion to storage                         | Kafka · PySpark · HDFS · Python · Docker                |
-| [JobOS](https://github.com/redaelfer/JobOS)           | A local workspace for job discovery, tracking, and tailored drafts | Node.js · SQLite · Ollama · LaTeX                       |
 
 Also exploring: [AgentFleet](https://github.com/redaelfer/AgentFleet), a Docker-backed agent-monitoring prototype, and [AI-Agents](https://github.com/redaelfer/AI-Agents), an Ollama assistant with tool calling and a Streamlit interface.
 
